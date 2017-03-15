@@ -1,6 +1,8 @@
 import fetch from 'node-fetch';
 import {appId} from './secrets'
 
+// !!! open folder in separate vs code window
+
 function getWeatherForecast(cityName:string, callback:(err, res?) => void) {
     if (typeof cityName === "undefined") {
         callback("city not passed");
