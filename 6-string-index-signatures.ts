@@ -2,7 +2,9 @@ interface StringMap<T> {
     [x: string]: T;
 }
 
-const map: StringMap<number> = {};
+const map: StringMap<number> = {
+    // age: 50
+};
 
 map["prop1"] = 1;
 map.prop2 = 2;

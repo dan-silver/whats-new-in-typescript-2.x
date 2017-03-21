@@ -3,6 +3,13 @@ import {appId} from './secrets'
 
 // !!! open folder in separate vs code window
 
+// Compile with ES6
+// Compile with ES5
+// removes arrow functions
+
+
+// Convert to use promises
+
 function getWeatherForecast(cityName:string, callback:(err, res?) => void) {
     if (typeof cityName === "undefined") {
         callback("city not passed");
@@ -17,7 +24,7 @@ function getWeatherForecast(cityName:string, callback:(err, res?) => void) {
         });
 }
 
-getWeatherForecast("longon", ((err, res) => {
+getWeatherForecast("london", ((err, res) => {
     if (err) {
         console.log(err);
         return;

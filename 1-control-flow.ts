@@ -1,3 +1,5 @@
+// start in 0-intro
+
 function foo(x: string | number | boolean) {
     if (typeof x === "string") {
         x; // type of x is string here
