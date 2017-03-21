@@ -8,3 +8,11 @@ function error(message: string): never {
 // function logger(message: string): never {
 //     console.log("foo")
 // }
+
+
+
+// what about infinite loops?
+
+
+// let x = mainLoop();
+// x.

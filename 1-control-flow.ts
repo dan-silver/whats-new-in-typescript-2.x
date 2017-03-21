@@ -1,4 +1,4 @@
-// start in 0-intro
+// *** start in 0-intro
 
 function foo(x: string | number | boolean) {
     if (typeof x === "string") {
