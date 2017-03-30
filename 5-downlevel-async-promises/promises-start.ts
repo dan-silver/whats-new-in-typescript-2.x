@@ -1,5 +1,7 @@
 import fetch from 'node-fetch';
 import {appId} from './secrets'
+import Promise from 'promise-polyfill';
+
 
 // !!! open folder in separate vs code window
 
