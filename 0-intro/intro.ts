@@ -18,9 +18,30 @@ interface User {
 
 
 
-// Check js-intro.js
+// JavaScript: Check js-intro.js
 
 
 
 // npm install @types/jquery
 // $.
+
+// also check JavaScript file
+
+
+
+
+
+// variables - let, const
+let n = 0;
+
+function pingServerNTimes(pings) {
+    for (let n=0; n<pings;n++) {
+
+    }
+
+    // what if n is constant?
+    // n = 10;
+}
+
+pingServerNTimes(n);
+console.log(n)

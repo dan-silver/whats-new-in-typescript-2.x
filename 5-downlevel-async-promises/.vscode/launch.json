@@ -8,9 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${file}",
-            "sourceMaps": true,
-            "preLaunchTask": "tsc",
+            "program": "${workspaceRoot}\\promises-start.js",
             "outFiles": []
         },
         {

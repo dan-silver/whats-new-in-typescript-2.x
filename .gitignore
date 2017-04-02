@@ -1,5 +1,4 @@
 5-downlevel-async-promises/secrets*
-**/*.js
 **/*.js.map
 **/*.d.ts
 
