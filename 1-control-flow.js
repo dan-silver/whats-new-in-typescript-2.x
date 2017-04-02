@@ -13,4 +13,5 @@ function bar(x) {
     }
     x; // type of x is string here
 }
+foo("");
 //# sourceMappingURL=1-control-flow.js.map

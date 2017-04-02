@@ -6,7 +6,7 @@ function foo(x: string | number | boolean) {
         x = 1;
         x; // type of x is number here
     }
-    x; // type of x is number | boolean here
+    return x; // type of x is number | boolean here
 }
 
 function bar(x: string | number) {
@@ -15,3 +15,10 @@ function bar(x: string | number) {
     }
     x; // type of x is string here
 }
+
+
+// setup debugger
+// show launch.json
+
+// what is type of result?
+let result = foo("");
