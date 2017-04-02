@@ -33,6 +33,7 @@ interface User {
 
 // variables - let, const
 let n = 0;
+const pings = -1;
 
 function pingServerNTimes(pings) {
     for (let n=0; n<pings;n++) {
