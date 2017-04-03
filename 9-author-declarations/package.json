@@ -1,0 +1,6 @@
+{
+    "name": "better-than-jquery",
+    "version": "1.0.0",
+    "main": "./main.js",
+    "types": "./main.d.ts"
+}
